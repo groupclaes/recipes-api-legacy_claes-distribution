@@ -1,0 +1,20 @@
+{
+  "name": "recipes-api-leagacy_claes-distribution",
+  "version": "2.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "author": {
+    "name": "Jamie Vangeysel",
+    "email": "jamie.vangeysel@groupclaes.be",
+    "url": "https://jamievangeysel.be"
+  },
+  "dependencies": {
+    "@groupclaes/fastify-elastic": "^4.2.2",
+    "fastify": "^4.26.1",
+    "mssql": "^10.0.2"
+  },
+  "devDependencies": {
+    "@types/mssql": "^9.1.5",
+    "@types/node": "^20.11.17"
+  }
+}
