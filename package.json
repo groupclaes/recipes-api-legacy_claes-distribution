@@ -9,12 +9,12 @@
     "url": "https://jamievangeysel.be"
   },
   "dependencies": {
-    "@groupclaes/fastify-elastic": "^4.2.2",
-    "fastify": "^4.26.1",
-    "mssql": "^10.0.2"
+    "@groupclaes/fastify-elastic": "^4.4.0",
+    "fastify": "^4.28.1",
+    "mssql": "^11.0.1"
   },
   "devDependencies": {
     "@types/mssql": "^9.1.5",
-    "@types/node": "^20.11.17"
+    "@types/node": "^20.16.9"
   }
 }
