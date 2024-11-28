@@ -2,7 +2,9 @@
   "name": "recipes-api-leagacy_claes-distribution",
   "version": "2.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "esbuild ./index.ts --bundle --platform=node --minify --packages=external --external:'./config' --outfile=index.min.js"
+  },
   "author": {
     "name": "Jamie Vangeysel",
     "email": "jamie.vangeysel@groupclaes.be",
